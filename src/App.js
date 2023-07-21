@@ -1,24 +1,37 @@
-import logo from './logo.svg';
+
 import './App.css';
+import AboutSection from './Components/AboutSection';
+import ContactSection from './Components/ContactSection';
+import HomeSection from './Components/HomeSection';
+import ProjectSection from './Components/ProjectSection';
+import TechStack from './Components/TechStack';
+import { BrowserRouter} from "react-router-dom";
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    {/*  <BrowserRouter>
+       
+      
+       <Routes>
+       <Route index element={<HomeSection />} />
+       <Route path='about' element={<AboutSection />} />
+       <Route path='projects' element={<ProjectSection />} />
+       <Route path='contact' element={<ContactSection />} />
+       </Routes>
+       <TechStack></TechStack>
+    </BrowserRouter> */}
+
+    <BrowserRouter>
+    <HomeSection></HomeSection>
+    <TechStack></TechStack>
+    <AboutSection></AboutSection>
+    <ProjectSection></ProjectSection>
+    <ContactSection></ContactSection>
+    </BrowserRouter>
+
+    </>
   );
 }
 

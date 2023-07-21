@@ -1,0 +1,120 @@
+.aboutPage-wrapper {
+  height: 100vh;
+  /*  border: solid blueviolet; */
+  background-color: #ffff;
+}
+
+.aboutPage-wrapper h3 {
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #02aab0;
+  /*  border: solid yellow; */
+}
+
+.about-section {
+  /* border: solid yellow; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3.125rem;
+  margin-top: 1.25rem;
+}
+
+.about-img {
+  width: 31.25rem;
+  height: 28.125rem;
+  /*  border: solid blue;   */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.about-img #my-img {
+  /*  border:solid #21b6bb; */
+  width: 28.125rem;
+  border-radius: 10%;
+  background-color: #8e8e8d;
+}
+.about-content {
+  /*  border: solid green; */
+  width: 31.25rem;
+  height: 28.125rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  line-height: 1.5625rem;
+  padding: 0.625rem;
+}
+
+.about-content h4 {
+  margin-bottom: 0.9375rem;
+  font-size: 1.2rem;
+  font-weight: 37.5rem;
+}
+
+#girl-emoji {
+  width: 3.125rem;
+  position: absolute;
+  top: 8%;
+  left: 0;
+  z-index: 1;
+}
+
+#emoji-text #rotating-text {
+  animation: rotate 9s linear infinite;
+  width: 8.75rem;
+  position: absolute;
+  left: -9%;
+  top: 0;
+  /*   border: solid #02aab0; */
+  background-color: #ffff;
+  border-radius: 50%;
+}
+
+@keyframes rotate {
+  100% {
+    transform: rotate(1turn);
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .aboutPage-wrapper {
+    height: 270vh;
+    width: 160vw;
+  }
+  .aboutPage-wrapper h3 {
+    padding-top: 120px;
+    font-size: 2rem;
+  }
+  .about-section {
+    flex-direction: column;
+  }
+  .about-img {
+    width: 80%;
+  }
+  .about-content {
+    width: 80%;
+    height: 120vh;
+    font-size: 1.5rem;
+  }
+  .about-content p {
+    /*  border: solid red; */
+    width: 100%;
+    height: 100%;
+    flex-wrap: wrap;
+    text-align: center;
+    line-height: 35px;
+    word-wrap: break-word;
+  }
+  .about-content h4 {
+    font-size: 2rem;
+    text-align: center;
+    line-height: 40px;
+  }
+
+  .about-img #my-img {
+    width: 100%;
+  }
+}
