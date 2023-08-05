@@ -81,11 +81,11 @@
 
 @media screen and (max-width: 425px) {
   .aboutPage-wrapper {
-    height: 270vh;
+    height: 250vh;
     width: 160vw;
   }
   .aboutPage-wrapper h3 {
-    padding-top: 120px;
+    padding-top: 130px;
     font-size: 2rem;
   }
   .about-section {
@@ -116,5 +116,8 @@
 
   .about-img #my-img {
     width: 100%;
+  }
+  #girl-emoji {
+    z-index: 1;
   }
 }

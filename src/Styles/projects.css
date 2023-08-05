@@ -19,8 +19,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 0.625rem;
-  width: 65%;
+  gap: 8%;
+  width: 70%;
   height: 63vh;
   background-color: #ffff;
   border-radius: 10px;
@@ -147,6 +147,7 @@
   }
   .project-container h3 {
     font-size: 2rem;
+    padding-top: 20px;
   }
 
   .main-project {

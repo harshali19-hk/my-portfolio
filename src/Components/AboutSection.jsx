@@ -9,7 +9,7 @@ const AboutSection = () => {
       <section className="aboutPage-wrapper" id="about">
         <h3>ABOUT ME</h3>
         <div className="about-section">
-          <div className="about-img">
+          <div className="about-img"   >
             <img src={aboutImg} alt="my-image" id="my-img" />
             <img id="girl-emoji" src={emoji} alt="emoji" />
             <span id="emoji-text">
@@ -20,18 +20,17 @@ const AboutSection = () => {
               />
             </span>
           </div>
-          <div className="about-content">
+          <div className="about-content"  >
             <h4>
               An Electrical Engineer turned Front-End Developer <br /> based in
               Aurangabad, Maharashtra 📍
             </h4>
             <p>
-              I got intrested in programming in my final semester of engineering
-              while learnig a programming langauge as a main semester subject.
+      
+              While studying a programming langauge as a main semester subject in my final semester of engineering,I got interested in programming.
               <br />
-              Hey, I'm a graduate in electrical engineering ,passionatly
-              learning front end Development.On personal level, I can grab
-              things very quickly and i'm strongly willing to learn and grow.
+              Hey, I'm a graduate in electrical engineering ,passionately
+              learning front end Development.On a personal level, I tend to pick things up quickly and willing to learn and grow.
               <br />
               My current skills are HTML, CSS, JavaScript, React.js , bootstrap,
               Git, Github

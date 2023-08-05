@@ -22,19 +22,19 @@ const Navbar = () => {
           </span>
         </a>
         <nav className="nav-wrapper" id="navabr" ref={navRef}>
-          <HashLink id="nav-link" to="#" onClick={hideNavbar} smooth>
+          <HashLink className="nav-link active"  to="#" onClick={hideNavbar} smooth>
             Home
           </HashLink>
 
-          <HashLink id="nav-link" to="#about" onClick={hideNavbar} smooth>
+          <HashLink className="nav-link" to="#about" onClick={hideNavbar} smooth>
             About
           </HashLink>
 
-          <HashLink id="nav-link" to="#projects" onClick={hideNavbar} smooth>
+          <HashLink className="nav-link" to="#projects" onClick={hideNavbar} smooth>
             Projects
           </HashLink>
 
-          <HashLink id="nav-link" to="#contact" onClick={hideNavbar} smooth>
+          <HashLink className="nav-link" to="#contact" onClick={hideNavbar} smooth>
             Contact
           </HashLink>
 

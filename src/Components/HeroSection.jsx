@@ -4,11 +4,13 @@ import img from "../assets/Developer.png";
 import { BsLinkedin } from "react-icons/bs";
 import { BsGithub } from "react-icons/bs";
 
+
 const HeroSection = () => {
+
   return (
     <>
-      <div className="hero-wrapper" id="hero">
-        <section className="hero-text">
+      <div className="hero-wrapper" id="hero"  >
+        <section className="hero-text" >
           <h2>
             Hello, <span class="emoji"> 👋 </span>
           </h2>
@@ -49,8 +51,8 @@ const HeroSection = () => {
           </div>
         </section>
 
-        <section className="hero-img">
-          <img src={img} alt="hero-image" />
+        <section className="hero-img" >
+          <img src={img} alt="hero"  />
         </section>
       </div>
     </>
